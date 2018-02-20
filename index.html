@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Crystals Collector!</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="titleBox">CrystalsCollector!</div>
+    <div class="instructions">
+        <li>You will given a random number at the start of the game.</li>
+            <br><br>
+        <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+        </li>
+            <br><br>
+        <li>You in the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+        </li>
+            <br><br>
+        <li>The value of each crystal is hidden from you until you click on it.
+        </li>
+            <br><br>
+        <li>Each time the game starts, the game will change the values of each crystal.
+        </li>
+    </div>
+
+    <!--random number that user is trying to match-->
+    <div class="randomNumber"><p>randomNumber</p></div>
+
+    <!--win/loss box for player-->
+    <div class="winlossBox"><ul>Wins:</ul><ul>Losses:</ul></div>
+
+    <!--red jewel image-->
+    <div class="jewel-red"> 
+            <img src="assets/images/jewel-red.jpg" class="jewel-red-img">
+    </div>
+    <div class="jewel-orange"> 
+            <img src="assets/images/jewel-orange.jpg" class="jewel-orange-img">
+    </div>
+    <div class="jewel-red"> 
+            <img src="assets/images/jewel-green.jpg" class="jewel-green-img">
+    </div>
+    <div class="jewel-aqua"> 
+            <img src="assets/images/jewel-aqua.jpg" class="jewel-aqua-img">
+    </div>
+
+    <div class="totalScoreTitle"><p>Your total score is:</p></div>
+    <div class="totalScore"><p>totalScore</p></div>
+
+</body>
+</html>

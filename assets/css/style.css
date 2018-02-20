@@ -1,0 +1,104 @@
+body {
+    background-color: lightskyblue;
+}
+
+.titleBox {
+    background-color: orange;
+    color: white;
+    font-size: 35px;
+    height: 75px;
+    width: 46.2%;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 2em;
+}
+
+.instructions {
+    background-color: rgb(235, 210, 178);
+    color: black;
+    height: 250px;
+    width: 45%;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.randomNumber {
+    color:black;
+    background-color: rgb(21, 170, 21);
+    height:50px;
+    width:21.45%;
+    padding:10px;
+    margin-top: 10px;
+    margin-left:10px;
+    float: left;
+    text-align: center; 
+    line-height: 3  em;
+}
+
+.winlossBox {
+    background-color:rgb(101, 101, 253);
+    color:black;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 50px;
+    width:21.45%;
+    padding:10px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.jewel-red-img {
+    clear:both;
+    float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.jewel-orange-img {
+    float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.jewel-green-img {
+    float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.jewel-aqua-img {
+    float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.totalScoreTitle {
+    clear: both;
+    float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height:30px;
+    width:21.45%;
+    background-color:rgb(27, 177, 169);
+}
+
+.totalScore {
+    clear:both;
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    height:75px;
+    width:21.45%;
+    background-color:rgb(27, 177, 169);
+}
