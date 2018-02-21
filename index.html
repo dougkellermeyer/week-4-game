@@ -5,8 +5,9 @@
     <title>Crystals Collector!</title>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <script src="assets/javascript/game.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+ 
 
 </head>
 
@@ -29,10 +30,15 @@
     </div>
 
     <!--random number that user is trying to match-->
-    <div class="randomNumber"><p>randomNumber</p></div>
+    <div class="randomNumber"></div>
 
     <!--win/loss box for player-->
-    <div class="winlossBox"><ul>Wins:</ul><ul>Losses:</ul></div>
+    <div class="winlossBox">
+        <div>Wins: <span class="wins"></span></div>
+        <div>Losses: <span class="losses"></span></div>
+        <div class="message"></div>
+    </div>
+
 
     <!--red jewel image-->
     <div class="jewel-red"> 
@@ -41,15 +47,15 @@
     <div class="jewel-orange"> 
             <img src="assets/images/jewel-orange.jpg" class="jewel-orange-img">
     </div>
-    <div class="jewel-red"> 
+    <div class="jewel-green"> 
             <img src="assets/images/jewel-green.jpg" class="jewel-green-img">
     </div>
-    <div class="jewel-aqua"> 
+    <div class="jewel-blue"> 
             <img src="assets/images/jewel-aqua.jpg" class="jewel-aqua-img">
     </div>
 
     <div class="totalScoreTitle"><p>Your total score is:</p></div>
-    <div class="totalScore"><p>totalScore</p></div>
+    <div class="totalScore"></div>
 
 </body>
 </html>
